@@ -34,14 +34,14 @@ con las siguientes variables:
 Desarrollar un modelo de redes neuronales para predecir los precios de las viviendas con una precisión superior a los métodos tradicionales como la regresión lineal.
 
 ### **1.3 Stakeholders y Requisitos**  
-- **Inversores:** Buscan predicciones con un margen de error inferior al 10%.
+- **Inversores:** Buscan predicciones con un margen de error inferior al 15%.
 - **Equipo Legal:** Exigen que el modelo sea interpretable para justificar decisiones en auditorías.
 - **Equipo Técnico:** La implementación debe ser escalable y compatible con entornos de nube (AWS/GCP), utilizando Contenedores Docker.
 
 
 ### **1.4 Métricas de Éxito**  
-- **Error cuadrático medio (RMSE):** Inferior al 5% del precio promedio de las viviendas.  
-- **Coeficiente de determinación (R²):** Mayor a 0.85.  
+- **Error cuadrático medio (RMSE):** Inferior al 15% del precio promedio de las viviendas.  
+- **Coeficiente de determinación (R²):** Mayor a 0.60.  
 
 
 ### **1.5 Desafíos Anticipados**  
@@ -122,7 +122,7 @@ El alumno comparará las métricas finales con las del conjunto de entrenamiento
 El alumno deberá analizar la calidad de las predicciones utilizando gráficos de dispersión, líneas de tendencia y métricas clave como RMSE y R². Se recomienda interpretar visualmente cómo se alinean las predicciones con los valores reales y detectar posibles patrones de error.  
 
 ### **5.2 Análisis de Errores**  
-Se identificarán las predicciones con errores significativos, especialmente aquellas con desviaciones superiores al 5% del precio real. El alumno deberá investigar si estos errores se deben a outliers, falta de representatividad en los datos de entrenamiento o limitaciones del modelo.  
+Se identificarán las predicciones con errores significativos, especialmente aquellas con desviaciones superiores al 10% del precio real. El alumno deberá investigar si estos errores se deben a outliers, falta de representatividad en los datos de entrenamiento o limitaciones del modelo.  
 
 ### **5.3 Comparación con Baseline (OPCIONAL)**  
 Para evaluar la efectividad del modelo, se compararán sus resultados con un modelo de regresión lineal tradicional. Se analizarán diferencias en RMSE, R² y la distribución de errores para justificar el uso de una red neuronal frente a métodos más simples.
