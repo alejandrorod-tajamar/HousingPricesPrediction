@@ -1,6 +1,6 @@
 # HousingPricesPrediction
 
-- Este proyecto se puede probar en [Google Colab](https://colab.research.google.com/) o en entorno local con **GPU**. Para ello:
+Este proyecto se puede probar en [Google Colab](https://colab.research.google.com/) o en entorno local con **GPU**. Para ello:
 
 1. Se pueden seguir las instrucciones del [notebook](https://github.com/alejandrorod-tajamar/HousingPricesPrediction/blob/main/Housing.ipynb) de una en una, aunque es recomendable simplemente revisarlas hasta llegar al punto _**5 Serialización del modelo**_.
 
