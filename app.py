@@ -8,11 +8,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 # Cargar el modelo
-model = tf.keras.models.load_model("housing_price_model_v1.keras")
+model = tf.keras.models.load_model("housing_price_model_v2.keras")
 
 # Valores para normalización
-precio_mean = 4766729.247706422
-precio_std = 1870439.6156573922
+precio_mean = 4600663.094339622
+precio_std = 1596119.2128020546
 
 # Error estándar estimado (ajusta este valor según tu modelo)
 error_std = 0.15  # 15% de error estándar estimado
@@ -58,7 +58,6 @@ def predict():
                 "lower": float(real_lower),
                 "upper": float(real_upper)
             },
-            "confidence_level": "95%",
             "model_error_std": float(error_std)
         })
 
